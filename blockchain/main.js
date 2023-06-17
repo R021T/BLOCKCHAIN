@@ -48,4 +48,4 @@ console.log('Validity Check Before Tampering: '+MuCoin.isChainValid());
 MuCoin.chain[1].data={amount:100};
 console.log('Validity Check After Tampering Data: '+MuCoin.isChainValid());
 MuCoin.chain[1].hash=MuCoin.chain[1].calculateHash();
-console.log('Validity Check After Tempering Hash: '+MuCoin.isChainValid());
+console.log('Validity Check After Tampering Hash: '+MuCoin.isChainValid());
